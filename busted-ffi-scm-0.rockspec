@@ -1,8 +1,8 @@
-package = 'busted'
-version = '2.0.rc12-1'
+package = 'busted-ffi'
+version = 'scm-0'
 source = {
-  url = 'https://github.com/Olivine-Labs/busted/archive/v2.0.rc12-1.tar.gz',
-  dir = 'busted-2.0.rc12-1'
+  url = "git://github.com/Olivine-Labs/busted",
+  branch = "master"
 }
 description = {
   summary = 'Elegant Lua unit testing.',
@@ -20,13 +20,13 @@ description = {
 dependencies = {
   'lua >= 5.1',
   'lua_cliargs = 3.0-1',
-  'luafilesystem >= 1.5.0',
+  'luafilesystem-ffi',
   'luasystem >= 0.2.0-0',
   'dkjson >= 2.1.0',
   'say >= 1.3-0',
   'luassert >= 1.7.8-0',
   'lua-term >= 0.1-1',
-  'penlight >= 1.3.2-2',
+  'penlight-ffi',
   'mediator_lua >= 1.1.1-0',
 }
 
